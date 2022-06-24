@@ -6,7 +6,7 @@
 //4-create a function to display todos and assign all elements and classList.add() to their classes  basically create another same model as your HTML for displaying and editing and deleting your notes
 // array method push will take newly todos => todo and add this todos to todo array
 // add category filter for personal or work!
-// try retyping all css and JS after finishing your portfolio page
+
 
 window.addEventListener("load", () => {
   todos = JSON.parse(localStorage.getItem("todos")) || []; // todos is global we dont add let or var, const
